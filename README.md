@@ -119,7 +119,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 - DIGITE UMA SENHA QUE VOCÊ LEMBRE;
 - DIGITE A SENHA NOVAMENTE NOVAMENTE;
 
-2º Agora vamos adicionar a chave criada para o github, no terminal digite o comando abaixo Copie a chave pública SSH para sua área de transferência.
+2º Agora vamos adicionar a chave criada para o github, no terminal digite o comando abaixo para copiar a chave pública SSH para sua área de transferência.
 
 ```chave pub
 cat ~/.ssh/id_ed25519.pub
