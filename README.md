@@ -3,7 +3,7 @@
 Resumo de instalação WSL no windows e dependencias da trybe e github.
 
 <details>
-<summary><strong>🪟 Passo 1 - Instalação WSL</strong></summary>
+<summary><strong>🪟 Passo 1 - Instalação WSL</strong></summary><br>
 
 1º Abra o Windows PowerShell como ADM e execute o comando:
 
@@ -18,7 +18,7 @@ Windows terminal
 ```
 
   <details>
-    <summary>Imagem do aplicativo - Windows terminal</summary>
+    <summary>Imagem do aplicativo - Windows terminal</summary><br>
     <img src="./images/windows-terminal.png" />
   </details>
 
@@ -31,7 +31,7 @@ Windows terminal
 </details>
 
 <details>
-<summary><strong>💻 Passo 2 - Configuração do Terminal</strong></summary>
+<summary><strong>💻 Passo 2 - Configuração do Terminal</strong></summary><br>
 
 1º Abra o Windows terminal, digitando na barra de pesquisa do windows - "Terminal".
 
@@ -44,7 +44,7 @@ Windows terminal
 </details>
 
 <details>
-<summary><strong>💚 Passo 3 - Instalação do Oh My Zsh </strong></summary>
+<summary><strong>💚 Passo 3 - Instalação do Oh My Zsh </strong></summary><br>
 
 1º Abra o terminal do Ubuntu e instale o zsh:
 
@@ -67,7 +67,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 </details>
 
 <details>
-<summary><strong>📇 Passo 4 - Instalação do vscode com code .</strong></summary>
+<summary><strong>📇 Passo 4 - Instalação do vscode com code .</strong></summary><br>
 
 1º Abra o Microsoft Store e procure por vscode:
 
@@ -82,7 +82,7 @@ code .
 </details>
 
 <details>
-<summary><strong>📗 Passo 5 - Instalação do Node com NVM</strong></summary>
+<summary><strong>📗 Passo 5 - Instalação do Node com NVM</strong></summary><br>
 
 1º Abra o terminal do Ubunto e digite o comando abaixo para instalar o NVM:
 
@@ -105,7 +105,7 @@ nvm install 16
 </details>
 
 <details>
-<summary><strong>🔑 Passo 6 - Instalação da chave ssh </strong></summary>
+<summary><strong>🔑 Passo 6 - Instalação da chave ssh </strong></summary><br>
 
 1º Abra o terminal do Ubunto e digite o comando abaixo para instalar uma nova chave publica:
 
@@ -147,7 +147,7 @@ cat ~/.ssh/id_ed25519.pub
 </details>
 
 <details>
-<summary><strong>🌎 Passo 7 - Instalação google chrome no linux</strong></summary>
+<summary><strong>🌎 Passo 7 - Instalação google chrome no linux</strong></summary><br>
 
 1º Abra o terminal do Ubunto e digite o comando abaixo para instalar o google chrome:
 
