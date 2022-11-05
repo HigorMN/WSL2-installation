@@ -1,6 +1,6 @@
 # WSL-windows
 
-Resumo de instalação WSL no windows.
+Resumo de instalação WSL no windows e dependencias da trybe e github.
 
 <details>
 <summary><strong>💻 Passo 1 - Instalação WSL</strong></summary>
@@ -43,9 +43,28 @@ Windows terminal
 
 </details>
 
-<!-- <details>
-<summary><strong>💻 Passo 3 - Instalação do OhMyZsh </strong></summary> -->
+<details>
+<summary><strong>💻 Passo 3 - Instalação do Oh My Zsh </strong></summary>
 
-1º
+1º Abra o terminal do Ubuntu e instale o zsh:
+
+```zsh
+sudo apt-get install zsh
+```
+
+2º Instale o Oh My Zsh:
+
+- wget
+
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+</details>
+
+<!-- <details>
+<summary><strong>💻 Passo 4 - Instalação do "nvm - Node.js"</strong></summary> -->
+
+1º Abra o terminal do Ubuntu e instale o zsh:
 
 <!-- </details> -->
