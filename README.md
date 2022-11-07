@@ -11,13 +11,13 @@ Resumo de instalação WSL no windows e dependencias da trybe e github.
 ```wsl
 wsl --install
 ```
+  - caso não funcione veja este passo a passo https://learn.microsoft.com/pt-br/windows/wsl/install-manual
 
 2º Enquanto instala o WSL abra o Microsoft Store e procure pelo aplicativo:
 
 ```terminal
 Windows terminal
 ```
- - caso não funcione veja este passo a passo https://learn.microsoft.com/pt-br/windows/wsl/install-manual
 
   <details>
     <summary>Imagem do aplicativo - Windows terminal</summary><br>
