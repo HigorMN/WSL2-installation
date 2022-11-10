@@ -192,7 +192,7 @@ sudo apt-get install -f
 </details>
 
 <details>
-<summary><strong>🛄 Passo 8 - Instalação do docker</strong></summary><br>
+<summary><strong>🛄 Passo 8 - Instalação do Docker</strong></summary><br>
 
 <strong>1º Desinstale versões anteriores</strong>
 
@@ -285,5 +285,40 @@ docker run hello-world
 ```
 
 <img src="./images/docker-hello-world.gif">
+
+<br />
+
+- Para melhorar a visualização dos Layers use o comando abaixo
+
+```
+sudo apt install jq
+```
+
+</details>
+
+<details>
+<summary><strong>🍅 Passo 9 - Instalação do Compose</strong></summary><br>
+
+<strong>1º Basta usar o seguinte comando para realizar a instalação:</strong>
+
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+<br />
+
+- Por padrão, binários baixados da Internet não possuem permissão de execução. Logo, basta usar o programa chmod para aplicar a permissão de execução (+x) ao binário que acabamos de baixar. Execute o seguinte comando no seu terminal:
+
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+<br />
+
+- Para validar a instalação basta executar o comando docker-compose --version. Se tudo ocorrer bem, você verá a seguinte saída em seu terminal:
+
+```
+docker-compose --version
+```
 
 </details>
