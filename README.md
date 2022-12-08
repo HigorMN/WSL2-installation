@@ -322,3 +322,10 @@ docker-compose --version
 ```
 
 </details>
+
+<!--
+MySql Workbench - trabalhar com banco de dados
+
+Mocha e Chai para testes em API
+npm install -D mocha@10.0 chai@4.3
+-->
