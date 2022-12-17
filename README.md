@@ -60,14 +60,14 @@ sudo apt-get install zsh
 <br />
 <strong>2º Feche o terminal e abra um novo terminal e instale o Oh My Zsh:</strong>
 
-- wget
+```my zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+   
+- caso o wget não esteja instalado:
 
 ```wget
 install wget
-```
-
-```my zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 </details>
@@ -75,7 +75,6 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 <details>
 <summary><strong>📇 Passo 4 - Instalação do vscode com code .</strong></summary><br>
 
-<br />
 <strong>1º Abra o Microsoft Store e procure por vscode:</strong>
 
 - OBS: "A instalação tem que ser pela Microsoft Store"
@@ -85,6 +84,8 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ```code
 code .
 ```
+
+- 🚀 Dica: Utilize a extensão no vscode chamada WSL
 
 </details>
 
@@ -138,7 +139,7 @@ cat ~/.ssh/id_ed25519.pub
 <br />
 3º No canto superior direito de qualquer página do github, clique na foto do seu perfil e em Configurações.
 
-<img src="./images/userbar-account-settings.png" width="150"/>
+<p alingn="left"><img src="./images/userbar-account-settings.png" width="150"/></p>
 
 <br />
 <strong>4º Na seção "Access" da barra lateral, clique nas SSH and GPG keys.</strong>
