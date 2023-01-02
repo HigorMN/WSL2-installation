@@ -79,7 +79,7 @@ install wget
 
 - OBS: "A instalação tem que ser pela Microsoft Store"
 
-<strong>2º Abra um novo terminal do Ubunto e digite o comando abaixo para abrir o vscode da pasta atual:</strong>
+<strong>2º Abra um novo terminal do Ubuntu e digite o comando abaixo para abrir o vscode da pasta atual:</strong>
 
 ```code
 code .
@@ -92,7 +92,7 @@ code .
 <details>
 <summary><strong>📗 Passo 5 - Instalação do Node com NVM</strong></summary><br>
 
-<strong>1º Abra o terminal do Ubunto e digite o comando abaixo para instalar o NVM:</strong>
+<strong>1º Abra o terminal do Ubuntu e digite o comando abaixo para instalar o NVM:</strong>
 
 ```nvm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
@@ -117,7 +117,7 @@ nvm install 16
 <details>
 <summary><strong>🔑 Passo 6 - Instalação da chave ssh </strong></summary><br>
 
-<strong>1º Abra o terminal do Ubunto e digite o comando abaixo para instalar uma nova chave publica:</strong>
+<strong>1º Abra o terminal do Ubuntu e digite o comando abaixo para instalar uma nova chave publica:</strong>
 
 - OBS: onde está escrito "your_email@example.com" é para digitar seu email do github.
 
@@ -166,7 +166,7 @@ cat ~/.ssh/id_ed25519.pub
 <details>
 <summary><strong>🌎 Passo 7 - Instalação google chrome no linux</strong></summary><br>
 
-<strong>1º Abra o terminal do Ubunto e digite o comando abaixo para instalar o google chrome:</strong>
+<strong>1º Abra o terminal do Ubuntu e digite o comando abaixo para instalar o google chrome:</strong>
 
 ```baixar chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
