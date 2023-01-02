@@ -1,6 +1,6 @@
 # WSL2
 
-Resumo de instalação WSL2 no windows e dependencias da trybe e github.
+Resumo de instalação WSL2 no windows e dependências da trybe e github.
 
 <details>
 <summary><strong>🪟 Passo 1 - Instalação WSL2</strong></summary><br>
