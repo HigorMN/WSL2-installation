@@ -13,7 +13,7 @@ wsl --install
 
 - ⚠️ Após instalação Reinicie o computador.
 
-- Quando reiniciar e abrir o terminal do wsl e pedir o "Distro" use o codigo abaixo:
+- Quando reiniciar e abrir o terminal do wsl e pedir o "Distro" use o código abaixo:
 
 ```wsl
 wsl.exe --install Ubuntu-20.04
@@ -271,7 +271,7 @@ newgrp docker
 sudo service docker status
 ```
 
-- Caso apareca Docker is not running
+- Caso apareça Docker is not running
 
 ```
 sudo service docker start
